@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header_area">
+            <div class="header_area__column">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+            <div class="header_area__column">
+                <span class="header_area__title">library</span>
+            </div>
+            <div class="header_area__column">
+                <i class="fa-solid fa-basket-shopping fa-xl"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form class="search_form">
+            <input type="text" class="search_form__input" placeholder="Search books...">
+        </form>
+        <div class="main_section__title">
+            <h1 class="first">Book of the day</h1>
+        </div>
+        <div class="main_book">
+            <div class="main_book__img">
+                <img src ="http://member.wjthinkbig.com/Uploads/wjbooks/book/%EC%9B%94%EB%93%A0_%ED%91%9C%EC%A7%80(%ED%8F%89%EB%A9%B4).jpg">    
+            </div>
+            <div class="main_book__info">
+                <div class="main_book__info-column"><h1 class="booktitle">WALDEN</h1></div>
+                <div class="main_book__info-column"><span class="bookwriter">HENRY D. THOREAU</span></div>
+                <div class="main_book__info-column">
+                    <i class="fa-solid fa-star full"></i>
+                    <i class="fa-solid fa-star full"></i>
+                    <i class="fa-solid fa-star full"></i>
+                    <i class="fa-solid fa-star full"></i>
+                    <i class="fa-solid fa-star empty"></i>
+                </div>
+                <div class="main_book__info-column">
+                    <span class="booktag">Journey</span>
+                    <span class="booktag">Biography</span>
+                </div>
+                <div class="main_book__info-column">
+                    <span class="bookmark"><i class="fa-solid fa-bookmark fa-xs"></i></span>
+                    <input class="nowbtn" type="submit" value="Book Now">
+                </div>
+            </div>
+        </div>
+        <div class="main_section__title">
+            <h1>Top Adventures</h1>
+        </div>
+        <div class="main_section__title">
+            <h1>Poppular authors</h1>
+        </div>
+        
+        <div class="main_book">
+            <div class="main_book__img">
+                <img src="data:image/jpeg;base64,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">
+            </div>
+            <div class="main_book__info">
+                <div class="main_book__info-column"><h1 class="booktitle">Henry David Thoreau</h1></div>
+                <div class="main_book__info-column"><p class="bookwriter">Henry David Thoreau was an American naturalist, essayist, poet, and philosopher. A leading transcendentalist, he is best known for his book Walden, a reflection upon simple living in natural surroundings, and his essay "Civil Disobedience" </p></div>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/22a1e389fd.js" crossorigin="anonymous"></script>
+</body>
+</html>
